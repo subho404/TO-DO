@@ -1,0 +1,174 @@
+.counter-container{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+
+.count-display{
+  font-size: 5em;
+  font-family: sans-serif;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+
+}
+
+.counter-button{
+  height: 50px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin:0px 5px;
+border:none;
+border-radius: 10px;
+background-color: hsl(180, 100%, 50%);
+
+}
+
+.counter-button:hover{
+
+  background-color: hsl(180, 100%, 40%);
+} */
+
+
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+h1{
+  margin: 50px;
+  font-size: 2.5rem;
+
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(60, 93%, 49%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+
+  transition: 0.25s ease;
+}
+
+.color-display p{
+  color: hsl(180, 31%, 95%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+label{
+  font-size: 2 rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 20%);
+} 
+
+
+body{
+  background-color: hsl(60, 2%, 9%);
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+}
+button{
+  font-size: 1.6rem;
+  font-weight: bolder;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: rgb(26, 198, 26);
+}
+
+.add-button:hover{
+  background-color: lightgreen;
+}
+
+.delete-button{
+  background-color: red;
+}
+
+.delete-button:hover{
+  background-color: rgb(234, 67, 67);
+}
+
+.move-button{
+  background-color: rgb(16, 42, 147);
+}
+
+.move-button:hover{
+  background-color: rgb(28, 115, 170);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color:hsla(0, 0%, 0%, 0.5) ;
+}
+
+ol{
+  padding: 0;
+
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  border: 3px solid black;
+
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+.delete-button,.move-button{
+  padding: 8px 12px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+
+
+} 
+
+
